@@ -1,6 +1,11 @@
-leiviskat = float(input("Anna leiviskät:"))
-naulat = float(input("Anna naulat:"))
-luodit = float(input("Anna luodit:"))
+while True:
+    try:
+        leiviskat = float(input("Anna leiviskät:"))
+        naulat = float(input("Anna naulat:"))
+        luodit = float(input("Anna luodit:"))
+        break
+    except ValueError:
+        print("Yritä uudelleen. ")
 
 # Muunnoskertoimet
 LEIVISKA_TO_NAULA = 20
