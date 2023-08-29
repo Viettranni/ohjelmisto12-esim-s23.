@@ -4,7 +4,7 @@ while True:
     try:
         luku = input("Anna luku: ")
         if luku == "":
-            print("")
+            print("EXIT")
             break
         luku = float(luku)
         lista.append(luku)
