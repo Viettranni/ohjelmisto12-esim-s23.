@@ -6,7 +6,7 @@ while True:
     if nimi == "":
         print(lista)
         break
-    if nimi in lista:
+    elif nimi in lista:
         print("Aiemmin syötetty nimi")
     else:
         print("Uusi nimi")
