@@ -2,11 +2,9 @@ def gallons_litroiksi(gallon):
     litra = gallon * 3.785
     return litra
 
-
 def main():
     while True:
-        gallon = float(input(
-            "Olet jenkeistä, etkä ymmärrä mitään litroista. Anna gallon määrä niin muutan sen sinulle litroiksi! "))
+        gallon = float(input("Olet jenkeistä, etkä ymmärrä mitään litroista. Anna gallon määrä niin muutan sen sinulle litroiksi! "))
 
         if gallon <= 0:
             print("Kiitos ajastasi!")
