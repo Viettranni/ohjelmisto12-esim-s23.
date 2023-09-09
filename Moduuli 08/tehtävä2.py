@@ -32,8 +32,12 @@ def haeLentokenttienMaarat(ident):
                     kuvaus = "Keskikokoisia lentokenttiä"
                 elif lentokentta_tyyppi == "heliport":
                     kuvaus = "Helikopterikenttiä"
-                else:
-                    kuvaus = "Tuntematon lentokenttätyyppi"
+                elif lentokentta_tyyppi == "closed":
+                    kuvaus = "Suljetut kentät"
+                elif lentokentta_tyyppi == "balloonport":
+                    kuvaus = "Balloonports"
+                elif lentokentta_tyyppi == "seaplane":
+                    kuvaus = "Seaplaneja "
 
                 print(f"{kuvaus} on: {lukumaara} kpl.")
         else:
